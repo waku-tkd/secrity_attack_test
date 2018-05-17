@@ -1,8 +1,7 @@
 <?php
   session_start();
-  $name = htmlspecialchars($_GET['name'], ENT_QUOTES, 'UTF-8');
-  $url = htmlspecialchars($_GET['url'], ENT_QUOTES, 'UTF-8');
-  var_dump($_GET);
+  $name = htmlspecialchars($_POST['name'], ENT_QUOTES, 'UTF-8');
+  $url = htmlspecialchars($_POST['url'], ENT_QUOTES, 'UTF-8');
 ?>
 <html>
 <body>
